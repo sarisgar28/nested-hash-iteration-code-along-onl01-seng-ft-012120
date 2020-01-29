@@ -22,3 +22,13 @@ binding.pry
 end
 end
 
+def contacts.each do |person, contact_details_hash|
+  if person == "Freddy Mercury"
+    
+    contact_details-hash.each do |attribute,data|
+      binding.pry 
+    end 
+  end 
+end 
+
+
