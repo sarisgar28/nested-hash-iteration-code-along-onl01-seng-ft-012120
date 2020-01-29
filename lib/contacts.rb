@@ -20,3 +20,15 @@ def remove_strawberry(contacts)
 favorite_ice_cream_flavors.delete do ("strawberry")
 binding.pry
 end
+end
+
+def contacts.each do |person, contact_details_hash|
+  if person == "Freddy Mercury"
+    
+    contact_details-hash.each do |attribute,data|
+      binding.pry 
+    end 
+  end 
+end 
+
+
